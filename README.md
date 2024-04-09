@@ -8,10 +8,24 @@ Python and Django need to be installed
 ```bash
 pip install django
 ```
+'''bash
+python -m django –version
+'''  (To check the version of django)
 
 ## Usage
 
 Go to the College-ERP folder and run
+'''bash
+pip install djangorestframework
+'''
+
+'''bash
+$ pip install -U djoser
+''' (for authentication)
+
+'''bash
+python manage.py migrate
+'''
 
 ```bash
 python manage.py runserver
